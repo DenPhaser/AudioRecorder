@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel Orientation="Horizontal" Margin="0,0,0.333,381.667">
+            <ComboBox x:Name="DeviceSelectCombobox" Width="608" Margin="0,0,0,-0.333"/>
+            <Button x:Name="StartStopRecordingButton" Content="Start" 
+                    Width="186" Click="StartStopRecordingButton_Click" Height="39" VerticalAlignment="Top"/>
+
+        </StackPanel>
+
     </Grid>
 </Window>
